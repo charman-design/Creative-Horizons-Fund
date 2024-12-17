@@ -1,0 +1,144 @@
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #f9a620;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  height: 120px;
+}
+
+header img {
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  text-align: right;
+  margin: 5em 3em 0 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  color: #f9a620;
+  font-size: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  color: #a8d5e2;
+  text-decoration: none;
+  text-align: center;
+}
+
+#intro,
+#ending-statement {
+  width: 29%;
+  float: left;
+  margin: 0 2%;
+}
+
+main {
+  clear: left;
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.intro-text {
+  padding: 2%;
+}
+
+.intro-images {
+  margin: 50px;
+}
+
+.facepainting {
+  float: right;
+  margin: 5px;
+  width: 45%;
+}
+
+.artists {
+  margin: 5px;
+  width: 45%;
+}
+
+.activity-text {
+  padding: 0.5% 1% 2% 0;
+}
+
+.art-gallery {
+  width: 25%;
+  height: 10%;
+  float: left;
+  padding-inline: 2%;
+}
+
+.project-text {
+  padding: 2%;
+  margin: 5px;
+  padding-inline: 2%;
+  font-size: x-large;
+}
+
+.ballroom-dancing {
+  width: 35%;
+  padding-inline: 2%;
+  float: right;
+}
+
+.stage {
+  padding-top: 2%;
+}
+
+.take2stage {
+  padding: 2%;
+  padding-inline: 2%;
+}
+
+.glee-broadway {
+  width: 35%;
+  padding-inline: 2%;
+  float: left;
+}
+
+#contact-info {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+}
+
+#contact-form {
+  padding: 2%;
+  padding-inline: 2%;
+}
+
+footer {
+  padding: 2%;
+}
